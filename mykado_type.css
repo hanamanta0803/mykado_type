@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-color: lightgreen;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+header ul{
+  margin: 0;
+}
+
+header li{
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.title{
+  font-size: 40px
+}
+
+main{
+  background-color: lightyellow;
+  margin: 0;
+}
+
+.search{
+  text-align: center;
+  margin: 0;
+}
+
+.search ul{
+  padding-left: 0;
+  margin: 0;
+}
+
+.search li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px 0;
+}
+
+.search li a{
+  text-decoration: none;
+  font: 20px black;
+}
+
+
+.search_type{
+  border-bottom: solid 4px royalblue;
+}
+
+/* .season{
+  height: 600px;
+  width: 90%;
+  background: white;
+  margin: auto;
+  border: solid 1px;
+  border-radius: 0 0 10px 10px/0 0 10px 10px;
+
+} */
+
+.search > .type > ul > div  {
+  text-align: center;
+  display: inline-block;
+  padding: 0 40px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.search > .type > ul > div > a  {
+  text-decoration: none;
+}
+
+footer{
+  background-color: lightyellow;
+  margin: 0;
+}
+
+footer h2{
+  float: right;
+  margin: 0;
+
+}
