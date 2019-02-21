@@ -1,11 +1,10 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: lightyellow;
 }
 
 header {
-  background-color: lightgreen;
+  background-color: #12BFA7;
   height: 100px;
   width: 100%;
   margin: 0;
@@ -20,6 +19,7 @@ header li {
   padding-top: 20px;
   padding-left: 20px;
   display: inline-block;
+  color: white;
 }
 
 .title {
@@ -27,8 +27,12 @@ header li {
   font-weight: bolder;
 }
 
+.title span{
+  font-size: 40px;
+}
+
 main {
-  background-color: lightyellow;
+  background-color: white;
   margin: 0;
 }
 
@@ -196,7 +200,7 @@ td {
 }
 
 footer {
-  background-color: lightgreen;
+  background-color: #12BFA7;
   height: 80px;
   margin: 0;
   padding: 0;
@@ -227,5 +231,5 @@ footer a{
 footer p {
   padding-top: 5px;
   margin: 0;
-  color: gray;
+  color: lightgray;
 }
