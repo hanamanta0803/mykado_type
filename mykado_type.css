@@ -27,12 +27,7 @@ header li {
   font-weight: bolder;
 }
 
-.title span{
-  font-size: 40px;
-}
-
 main {
-  background-color: white;
   margin: 0;
 }
 
@@ -60,7 +55,6 @@ main {
   color: black;
 }
 
-
 .search_type {
   font-weight: 600;
   border-bottom: solid 4px royalblue;
@@ -72,7 +66,9 @@ main {
 }
 .type {
 	margin: 1em auto;
+  font-size: 20px;
 }
+
 .type > input[type='radio'] {
 	margin: 0;
 	padding: 0;
@@ -95,6 +91,7 @@ main {
 .type > input:nth-child(11):checked ~ .cp_tabpanels > .cp_tabpanel:nth-child(6){
 	display: block;
 }
+
 .type > label {
 	position: relative;
 	display: inline-block;
@@ -121,15 +118,16 @@ main {
 
 table {
   width: 100%;
+  height: 100%;
 }
 
 td {
   padding: 15px 0;
   font-size: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {
-
   .title{
     font-size: 36px;
   }
@@ -150,15 +148,18 @@ td {
     display: inline-block;
     padding: 20px 15px 0;
   }
+
   .search li a {
     text-decoration: none;
     font-size: 17px;
     color: black;
   }
+
 	.type {
 		width: 100%;
 		font-size: 10px;
 	}
+
 	.type label {
 		padding: 5px 5%;
     font-size: 15px;
@@ -168,7 +169,6 @@ td {
     padding: 10px 0;
     font-size: 10px;
   }
-
 
 }
 
